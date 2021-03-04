@@ -1525,7 +1525,7 @@ function init() {
             balloonContentHeader: '<a href = "#popup:edit_me" target="_blank">Пятёрочка</a><br>' +
             '<span class="description">Супермаркет</span>',
             // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="фhttp://images.vfl.ru/ii/1614862339/c6b75603/33555746.png" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
+            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614862339/c6b75603/33555746.png" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
             '<b><a href = "#popup:edit_me" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
             // Зададим содержимое нижней части балуна.
             balloonContentFooter: '',
