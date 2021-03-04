@@ -712,7 +712,7 @@ function init() {
             }))
         .add(new ymaps.Placemark([53.303362461127776,50.2798030253827], {
             // Зададим содержимое заголовка балуна.
-            balloonContentHeader: '<a href = "#popup:edit_me" target="_blank">Городская больница № 7, Детское поликлиническое отделение № 2</a><br>' +
+            balloonContentHeader: '<a href = "#popup:edit_me" target="_blank">Городская больница № 7, Детское<br> поликлиническое отделение № 2</a><br>' +
             '<span class="description">Детская поликлиника</span>',
             // Зададим содержимое основной части балуна.
             balloonContentBody: '<img src="http://images.vfl.ru/ii/1614858130/94d172de/33554781.png" height="150" width="300" title="Городская больница № 7, Детское поликлиническое отделение № 2" alt="Городская больница № 7, Детское поликлиническое отделение № 2"> <br/> ' +           
@@ -739,7 +739,7 @@ function init() {
             }))
         .add(new ymaps.Placemark([53.3028949126879,50.28600373710655], {
             // Зададим содержимое заголовка балуна.
-            balloonContentHeader: '<a href = "#popup:edit_me" target="_blank">Детская поликлиника ГБУЗ СО Самарская городская больница №7</a><br>' +
+            balloonContentHeader: '<a href = "#popup:edit_me" target="_blank">Детская поликлиника ГБУЗ СО <br>Самарская городская больница №7</a><br>' +
             '<span class="description">Детская поликлиника</span>',
             // Зададим содержимое основной части балуна.
             balloonContentBody: '<img src="http://images.vfl.ru/ii/1614858233/f83c2adb/33554854.png" height="150" width="300" title="Городская больница № 7, Детское поликлиническое отделение № 2" alt="Детская поликлиника ГБУЗ СО Самарская городская больница №7"> <br/> ' +           
@@ -1117,7 +1117,7 @@ function init() {
             }))
         .add(new ymaps.Placemark([53.30769577202182,50.28933404604394], {
             // Зададим содержимое заголовка балуна.
-            balloonContentHeader: '<a href = "#popup:edit_me" target="_blank">Имидж-студия Анастасии Худорожковой</a><br>' +
+            balloonContentHeader: '<a href = "#popup:edit_me" target="_blank">Имидж-студия Анастасии <br>Худорожковой</a><br>' +
             '<span class="description">Салон красотыателье по пошиву одежды</span>',
             // Зададим содержимое основной части балуна.
             balloonContentBody: '<img src="http://images.vfl.ru/ii/1614861025/8ea27552/33555430.png" height="150" width="300" title="Салон красотыателье по пошиву одежды" alt="Салон красотыателье по пошиву одежды"> <br/> ' +           
