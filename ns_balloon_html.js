@@ -1412,9 +1412,9 @@ function init() {
                 balloonCloseButton: true,
                 balloonOffset: [0, -0]
             }))
-        .add(new ymaps.Placemark([53.30948205872221,50.289492527193936], {
+        .add(new ymaps.Placemark([53.307215312364114,50.28521008994356], {
             // Зададим содержимое заголовка балуна.
-            balloonContentHeader: '<a href = "#popup:edit_me" target="_blank">Пятёрочка</a><br>' +
+            balloonContentHeader: '<a href = "#popup:edit_me" target="_blank">Магнит-Космети»</a><br>' +
             '<span class="description">Супермаркет</span>',
             // Зададим содержимое основной части балуна.
             balloonContentBody: '<img src="http://images.vfl.ru/ii/1614862100/de41846e/33555703.png" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
