@@ -24,7 +24,7 @@ function init() {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
-            iconImageHref: 'https://static.tildacdn.com/tild3731-6261-4233-b236-313232656664/1-02.png.png',
+            iconImageHref: 'https://static.tildacdn.com/tild3731-6261-4233-b236-313232656664/1-02.png',
             // Размеры метки.
             iconImageSize: [30, 30],
             // Смещение левого верхнего угла иконки относительно
