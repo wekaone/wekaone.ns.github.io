@@ -51,7 +51,7 @@ function init() {
                 // Необходимо указать данный тип макета.
                 iconLayout: 'default#image',
                 // Своё изображение иконки метки.
-                iconImageHref: 'https://static.tildacdn.com/tild3731-6261-4233-b236-313232656664/1-02.png.png',
+                iconImageHref: 'https://static.tildacdn.com/tild3731-6261-4233-b236-313232656664/1-02.png',
                 // Размеры метки.
                 iconImageSize: [30, 30],
                 // Смещение левого верхнего угла иконки относительно
@@ -78,7 +78,7 @@ function init() {
                 // Необходимо указать данный тип макета.
                 iconLayout: 'default#image',
                 // Своё изображение иконки метки.
-                iconImageHref: 'https://static.tildacdn.com/tild3731-6261-4233-b236-313232656664/1-02.png.png',
+                iconImageHref: 'https://static.tildacdn.com/tild3731-6261-4233-b236-313232656664/1-02.png',
                 // Размеры метки.
                 iconImageSize: [30, 30],
                 // Смещение левого верхнего угла иконки относительно
@@ -105,7 +105,7 @@ function init() {
                 // Необходимо указать данный тип макета.
                 iconLayout: 'default#image',
                 // Своё изображение иконки метки.
-                iconImageHref: 'https://static.tildacdn.com/tild3731-6261-4233-b236-313232656664/1-02.png.png',
+                iconImageHref: 'https://static.tildacdn.com/tild3731-6261-4233-b236-313232656664/1-02.png',
                 // Размеры метки.
                 iconImageSize: [30, 30],
                 // Смещение левого верхнего угла иконки относительно
@@ -132,7 +132,7 @@ function init() {
                 // Необходимо указать данный тип макета.
                 iconLayout: 'default#image',
                 // Своё изображение иконки метки.
-                iconImageHref: 'https://static.tildacdn.com/tild3731-6261-4233-b236-313232656664/1-02.png.png',
+                iconImageHref: 'https://static.tildacdn.com/tild3731-6261-4233-b236-313232656664/1-02.png',
                 // Размеры метки.
                 iconImageSize: [30, 30],
                 // Смещение левого верхнего угла иконки относительно
@@ -159,7 +159,7 @@ function init() {
                 // Необходимо указать данный тип макета.
                 iconLayout: 'default#image',
                 // Своё изображение иконки метки.
-                iconImageHref: 'https://static.tildacdn.com/tild3731-6261-4233-b236-313232656664/1-02.png.png',
+                iconImageHref: 'https://static.tildacdn.com/tild3731-6261-4233-b236-313232656664/1-02.png',
                 // Размеры метки.
                 iconImageSize: [30, 30],
                 // Смещение левого верхнего угла иконки относительно
@@ -337,7 +337,7 @@ function init() {
             balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Детский №362</a><br>' +
             '<span class="description">Частный детский сад</span>',
             // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614856686/5a147a40/33554419.png" height="150" width="300" title="Детский №362" alt="Детский №362"> <br/> ' +           
+            balloonContentBody: '<img src="https://static.tildacdn.com/tild3233-6636-4639-a135-353535613766/1-1.png" height="150" width="300" title="Детский №362" alt="Детский №362"> <br/> ' +           
             '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
             // Зададим содержимое нижней части балуна.
             balloonContentFooter: '',
@@ -364,7 +364,7 @@ function init() {
             balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Детский №362</a><br>' +
             '<span class="description">Детский сад комбинированного вида</span>',
             // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614856810/5962792b/33554462.png" height="150" width="300" title="Детский сад №362" alt="Детский сад №362"> <br/> ' +           
+            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614856686/5a147a40/33554419.png" height="150" width="300" title="Детский сад №362" alt="Детский сад №362"> <br/> ' +           
             '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
             // Зададим содержимое нижней части балуна.
             balloonContentFooter: '',
@@ -1061,66 +1061,12 @@ function init() {
                 balloonCloseButton: true,
                 balloonOffset: [0, -0]
             }))
-        .add(new ymaps.Placemark([53.30428314049724,50.285946330793436], {
-            // Зададим содержимое заголовка балуна.
-            balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Студия красоты</a><br>' +
-            '<span class="description">Салон красоты</span>',
-            // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614860644/e1df2cb6/33555346.png" height="150" width="300" title="Студия красоты" alt="Студия красоты"> <br/> ' +           
-            '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
-            // Зададим содержимое нижней части балуна.
-            balloonContentFooter: '',
-            // Зададим содержимое всплывающей подсказки.
-            hintContent: 'Студия красоты'
-            }, {
-                // Опции.
-                // Необходимо указать данный тип макета.
-                iconLayout: 'default#image',
-                // Своё изображение иконки метки.
-                iconImageHref: 'https://static.tildacdn.com/tild6332-3134-4466-a430-653633373235/1-14.png',
-                // Размеры метки.
-                iconImageSize: [30, 30],
-                // Смещение левого верхнего угла иконки относительно
-                // её "ножки" (точки привязки).
-                iconImageOffset: [0, 0],
-                hideIconOnBalloonOpen: false,
-                // Вкл./Откл кнопку закрытия балуна.
-                balloonCloseButton: true,
-                balloonOffset: [0, -0]
-            }))
-        .add(new ymaps.Placemark([53.30700095512102,50.28914092699488], {
-            // Зададим содержимое заголовка балуна.
-            balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Салон красоты</a><br>' +
-            '<span class="description">Салон красоты</span>',
-            // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614860749/0ba63df6/33555382.png" height="150" width="300" title="Студия красоты" alt="Студия красоты"> <br/> ' +           
-            '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
-            // Зададим содержимое нижней части балуна.
-            balloonContentFooter: '',
-            // Зададим содержимое всплывающей подсказки.
-            hintContent: 'Салон красоты'
-            }, {
-                // Опции.
-                // Необходимо указать данный тип макета.
-                iconLayout: 'default#image',
-                // Своё изображение иконки метки.
-                iconImageHref: 'https://static.tildacdn.com/tild6332-3134-4466-a430-653633373235/1-14.png',
-                // Размеры метки.
-                iconImageSize: [30, 30],
-                // Смещение левого верхнего угла иконки относительно
-                // её "ножки" (точки привязки).
-                iconImageOffset: [0, 0],
-                hideIconOnBalloonOpen: false,
-                // Вкл./Откл кнопку закрытия балуна.
-                balloonCloseButton: true,
-                balloonOffset: [0, -0]
-            }))
         .add(new ymaps.Placemark([53.30769577202182,50.28933404604394], {
             // Зададим содержимое заголовка балуна.
             balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Имидж-студия Анастасии <br>Худорожковой</a><br>' +
             '<span class="description">Салон красотыателье по пошиву одежды</span>',
             // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614861025/8ea27552/33555430.png" height="150" width="300" title="Салон красотыателье по пошиву одежды" alt="Салон красотыателье по пошиву одежды"> <br/> ' +           
+            balloonContentBody: '<img src="https://static.tildacdn.com/tild6666-6566-4637-b161-386165316363/43.png" height="150" width="300" title="Салон красотыателье по пошиву одежды" alt="Салон красотыателье по пошиву одежды"> <br/> ' +           
             '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
             // Зададим содержимое нижней части балуна.
             balloonContentFooter: '',
@@ -1174,7 +1120,7 @@ function init() {
             balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Cherry bar Lash&Brow</a><br>' +
             '<span class="description">Салон красоты</span>',
             // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614861180/ec085acc/33555441.png" height="150" width="300" title="Cherry bar Lash&Brow" alt="Cherry bar Lash&Brow"> <br/> ' +           
+            balloonContentBody: '<img src="https://static.tildacdn.com/tild6266-3530-4964-a239-643236653731/2_2.jpg" height="150" width="300" title="Cherry bar Lash&Brow" alt="Cherry bar Lash&Brow"> <br/> ' +           
             '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
             // Зададим содержимое нижней части балуна.
             balloonContentFooter: '',
@@ -1196,39 +1142,12 @@ function init() {
                 balloonCloseButton: true,
                 balloonOffset: [0, -0]
             }))
-        .add(new ymaps.Placemark([53.308400908176296,50.28748981207092], {
-            // Зададим содержимое заголовка балуна.
-            balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Жемчуг</a><br>' +
-            '<span class="description">Салон красоты</span>',
-            // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614861232/193e6ffe/33555457.png" height="150" width="300" title="Жемчуг" alt="Жемчуг"> <br/> ' +           
-            '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
-            // Зададим содержимое нижней части балуна.
-            balloonContentFooter: '',
-            // Зададим содержимое всплывающей подсказки.
-            hintContent: 'Жемчуг'
-            }, {
-                // Опции.
-                // Необходимо указать данный тип макета.
-                iconLayout: 'default#image',
-                // Своё изображение иконки метки.
-                iconImageHref: 'https://static.tildacdn.com/tild6332-3134-4466-a430-653633373235/1-14.png',
-                // Размеры метки.
-                iconImageSize: [30, 30],
-                // Смещение левого верхнего угла иконки относительно
-                // её "ножки" (точки привязки).
-                iconImageOffset: [0, 0],
-                hideIconOnBalloonOpen: false,
-                // Вкл./Откл кнопку закрытия балуна.
-                balloonCloseButton: true,
-                balloonOffset: [0, -0]
-            }))
         .add(new ymaps.Placemark([53.30920414875362,50.28747908323487], {
             // Зададим содержимое заголовка балуна.
             balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Салон красоты Olivia</a><br>' +
             '<span class="description">Салон красоты</span>',
             // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614861280/0f593f7e/33555489.png" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
+            balloonContentBody: '<img src="https://static.tildacdn.com/tild3863-3839-4564-b234-656535646661/2_4.jpg" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
             '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
             // Зададим содержимое нижней части балуна.
             balloonContentFooter: '',
@@ -1252,42 +1171,15 @@ function init() {
             }))
         .add(new ymaps.Placemark([53.3099500995024,50.2890177197446], {
             // Зададим содержимое заголовка балуна.
-            balloonContentHeader: '<a href = "#popup:stepform" target="_blank">The vosk</a><br>' +
+            balloonContentHeader: '<a href = "#popup:stepform" target="_blank">WoMan</a><br>' +
             '<span class="description">Салон красоты</span>',
             // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614861422/d49c038a/33555517.png" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
+            balloonContentBody: '<img src="https://static.tildacdn.com/tild3761-3065-4331-b232-373031346137/2_6.jpg" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
             '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
             // Зададим содержимое нижней части балуна.
             balloonContentFooter: '',
             // Зададим содержимое всплывающей подсказки.
-            hintContent: 'The vosk'
-            }, {
-                // Опции.
-                // Необходимо указать данный тип макета.
-                iconLayout: 'default#image',
-                // Своё изображение иконки метки.
-                iconImageHref: 'https://static.tildacdn.com/tild6332-3134-4466-a430-653633373235/1-14.png',
-                // Размеры метки.
-                iconImageSize: [30, 30],
-                // Смещение левого верхнего угла иконки относительно
-                // её "ножки" (точки привязки).
-                iconImageOffset: [0, 0],
-                hideIconOnBalloonOpen: false,
-                // Вкл./Откл кнопку закрытия балуна.
-                balloonCloseButton: true,
-                balloonOffset: [0, -0]
-            }))
-        .add(new ymaps.Placemark([53.30980411713804,50.28669285329201], {
-            // Зададим содержимое заголовка балуна.
-            balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Beauty Zone</a><br>' +
-            '<span class="description">Салон красоты. Лазерная эпиляция</span>',
-            // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614861469/3c06e1ae/33555520.png" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
-            '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
-            // Зададим содержимое нижней части балуна.
-            balloonContentFooter: '',
-            // Зададим содержимое всплывающей подсказки.
-            hintContent: 'Beauty Zone'
+            hintContent: 'WoMan'
             }, {
                 // Опции.
                 // Необходимо указать данный тип макета.
@@ -1336,7 +1228,7 @@ function init() {
             balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Аптека ВИТА Экспресс</a><br>' +
             '<span class="description">Аптека</span>',
             // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614861944/dd4584a7/33555643.png" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
+            balloonContentBody: '<img src="https://static.tildacdn.com/tild3361-6261-4438-b535-373232376438/2_3.jpg" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
             '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
             // Зададим содержимое нижней части балуна.
             balloonContentFooter: '',
@@ -1363,7 +1255,7 @@ function init() {
             balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Апрель</a><br>' +
             '<span class="description">Аптека</span>',
             // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614861996/ec78674a/33555652.png" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
+            balloonContentBody: '<img src="https://static.tildacdn.com/tild6435-6236-4163-a530-656536386235/52.png" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
             '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
             // Зададим содержимое нижней части балуна.
             balloonContentFooter: '',
@@ -1390,7 +1282,7 @@ function init() {
             balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Алия</a><br>' +
             '<span class="description">Аптека</span>',
             // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614862038/d5817158/33555664.png" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
+            balloonContentBody: '<img src="https://static.tildacdn.com/tild6266-6463-4132-b730-623736653333/53.png" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
             '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
             // Зададим содержимое нижней части балуна.
             balloonContentFooter: '',
@@ -1417,7 +1309,7 @@ function init() {
             balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Магнит-Космети»</a><br>' +
             '<span class="description">Супермаркет</span>',
             // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614862100/de41846e/33555703.png" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
+            balloonContentBody: '<img src="https://static.tildacdn.com/tild3631-3963-4464-a265-356534616239/111.png" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
             '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
             // Зададим содержимое нижней части балуна.
             balloonContentFooter: '',
@@ -1444,7 +1336,7 @@ function init() {
             balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Пятёрочка</a><br>' +
             '<span class="description">Супермаркет</span>',
             // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="http://images.vfl.ru/ii/1614862100/de41846e/33555703.png" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
+            balloonContentBody: '<img src="https://static.tildacdn.com/tild3534-6465-4765-a630-353937643462/2_1.jpg" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
             '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
             // Зададим содержимое нижней части балуна.
             balloonContentFooter: '',
@@ -1539,6 +1431,60 @@ function init() {
                 iconImageHref: 'https://static.tildacdn.com/tild6464-6539-4166-a332-636537363966/1-11.png',
                 // Размеры метки.
                 iconImageSize: [30, 30],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [0, 0],
+                hideIconOnBalloonOpen: false,
+                // Вкл./Откл кнопку закрытия балуна.
+                balloonCloseButton: true,
+                balloonOffset: [0, -0]
+            }))
+        .add(new ymaps.Placemark([53.307307501238725,50.28931998736326], {
+            // Зададим содержимое заголовка балуна.
+            balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Отдел аренды ЖК "Новая Самара"</a><br>' +
+            '<span class="description">ООО "СЗ "ФИНСТРОЙ"</span>',
+            // Зададим содержимое основной части балуна.
+            balloonContentBody: '<img src="https://static.tildacdn.com/tild3131-3535-4731-b633-653238653735/office.jpg" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
+            '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
+            // Зададим содержимое нижней части балуна.
+            balloonContentFooter: '',
+            // Зададим содержимое всплывающей подсказки.
+            hintContent: 'Отдел аренды ООО "СЗ "Финстрой"'
+            }, {
+                // Опции.
+                // Необходимо указать данный тип макета.
+                iconLayout: 'default#image',
+                // Своё изображение иконки метки.
+                iconImageHref: 'https://static.tildacdn.com/tild3661-3365-4466-b332-383331646438/ns_op_oapng.png',
+                // Размеры метки.
+                iconImageSize: [40, 40],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [0, 0],
+                hideIconOnBalloonOpen: false,
+                // Вкл./Откл кнопку закрытия балуна.
+                balloonCloseButton: true,
+                balloonOffset: [0, -0]
+            }))
+        .add(new ymaps.Placemark([53.30704688152192,50.28914832598631], {
+            // Зададим содержимое заголовка балуна.
+            balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Офис продаж ЖК "Новая Самара"</a><br>' +
+            '<span class="description">ООО "СЗ "ФИНСТРОЙ"</span>',
+            // Зададим содержимое основной части балуна.
+            balloonContentBody: '<img src="https://static.tildacdn.com/tild3131-3535-4731-b633-653238653735/office.jpg" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
+            '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
+            // Зададим содержимое нижней части балуна.
+            balloonContentFooter: '',
+            // Зададим содержимое всплывающей подсказки.
+            hintContent: 'Офис продаж ЖК "Новая Самара"'
+            }, {
+                // Опции.
+                // Необходимо указать данный тип макета.
+                iconLayout: 'default#image',
+                // Своё изображение иконки метки.
+                iconImageHref: 'https://static.tildacdn.com/tild3661-3365-4466-b332-383331646438/ns_op_oapng.png',
+                // Размеры метки.
+                iconImageSize: [40, 40],
                 // Смещение левого верхнего угла иконки относительно
                 // её "ножки" (точки привязки).
                 iconImageOffset: [0, 0],
