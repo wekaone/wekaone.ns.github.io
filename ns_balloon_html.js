@@ -1441,11 +1441,11 @@ function init() {
             }))
         .add(new ymaps.Placemark([53.30704688152192,50.28914832598631], {
             // Зададим содержимое заголовка балуна.
-            balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Офис отдела продаж и аренды ЖК "Новая Самара"</a><br>' +
-            '<span class="description">ООО "СЗ "ФИНСТРОЙ"</span>',
+            balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Офис отдела продаж и аренды<br>ЖК "Новая Самара"</a><br>' +
+            '<span class="description">ООО "СЗ "ФИНСТРОЙ"<br><br><i>Режим работы:</i><br>пн-пт с 09 до 19<br>сб -вс с 09 до 16<br><br><i>Адрес:</i><br><a href="https://yandex.ru/maps/51/samara/house/1_y_kvartal_40/YUkYdA9pS0YCQFtpfX9xdn5jbA==/?ll=50.289234%2C53.307208&z=16">г. Самара, Красноглинский р-н, <br>поселок Мехзавод 1- й квартал, д. 40</a></span>',
             // Зададим содержимое основной части балуна.
             balloonContentBody: '<img src="https://static.tildacdn.com/tild3131-3535-4731-b633-653238653735/office.jpg" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
-            '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
+            '<b><a href = "#popup:zvonok" target="_blank" style="font-size: 14px">➥ <u>Заказать обратный звонок</u></a></b>',
             // Зададим содержимое нижней части балуна.
             balloonContentFooter: '',
             // Зададим содержимое всплывающей подсказки.
