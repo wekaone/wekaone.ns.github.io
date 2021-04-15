@@ -1439,36 +1439,9 @@ function init() {
                 balloonCloseButton: true,
                 balloonOffset: [0, -0]
             }))
-        .add(new ymaps.Placemark([53.307307501238725,50.28931998736326], {
-            // Зададим содержимое заголовка балуна.
-            balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Отдел аренды ЖК "Новая Самара"</a><br>' +
-            '<span class="description">ООО "СЗ "ФИНСТРОЙ"</span>',
-            // Зададим содержимое основной части балуна.
-            balloonContentBody: '<img src="https://static.tildacdn.com/tild3131-3535-4731-b633-653238653735/office.jpg" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
-            '<b><a href = "#popup:stepform" target="_blank" style="font-size: 14px">➥ <u>Скачать презентацию</u></a></b>',
-            // Зададим содержимое нижней части балуна.
-            balloonContentFooter: '',
-            // Зададим содержимое всплывающей подсказки.
-            hintContent: 'Отдел аренды ООО "СЗ "Финстрой"'
-            }, {
-                // Опции.
-                // Необходимо указать данный тип макета.
-                iconLayout: 'default#image',
-                // Своё изображение иконки метки.
-                iconImageHref: 'https://static.tildacdn.com/tild3661-3365-4466-b332-383331646438/ns_op_oapng.png',
-                // Размеры метки.
-                iconImageSize: [40, 40],
-                // Смещение левого верхнего угла иконки относительно
-                // её "ножки" (точки привязки).
-                iconImageOffset: [0, 0],
-                hideIconOnBalloonOpen: false,
-                // Вкл./Откл кнопку закрытия балуна.
-                balloonCloseButton: true,
-                balloonOffset: [0, -0]
-            }))
         .add(new ymaps.Placemark([53.30704688152192,50.28914832598631], {
             // Зададим содержимое заголовка балуна.
-            balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Офис продаж ЖК "Новая Самара"</a><br>' +
+            balloonContentHeader: '<a href = "#popup:stepform" target="_blank">Офис отдела продаж и аренды ЖК "Новая Самара"</a><br>' +
             '<span class="description">ООО "СЗ "ФИНСТРОЙ"</span>',
             // Зададим содержимое основной части балуна.
             balloonContentBody: '<img src="https://static.tildacdn.com/tild3131-3535-4731-b633-653238653735/office.jpg" height="150" width="300" title="Новая Самара" alt="ЖК Новая Самара"> <br/> ' +           
